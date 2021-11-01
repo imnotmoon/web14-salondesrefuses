@@ -15,6 +15,7 @@ const useInputArtwork = (image: File) => {
         formData.append('description', modalInputData['description']);
         formData.append('year', modalInputData['year']);
         formData.append('bidEnd', modalInputData['bidEnd']);
+        formData.append('postType', modalInputData['postType']);
         formData.append('image', image);
 
         // TODO - post FormData to server //
